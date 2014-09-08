@@ -3676,3 +3676,8 @@ CONFIG_HTC_POWEROFF_MODEM_IN_OFFMODE_CHARGING=y
 
 #For store modem reset information
 CONFIG_HTC_STORE_MODEM_RESET_INFO=y
+
+#enable bridging and ebtables for ipv6 tethering
+CONFIG_BRIDGE_NF_EBTABLES=y
+CONFIG_BRIDGE_EBT_BROUTE=y
+CONFIG_BRIDGE=y
